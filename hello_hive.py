@@ -26,7 +26,7 @@ table = 'Beasts'
 key = 'Beast_Type'
 value = '\'Cats\''
 
-query = 'SELECT * FROM {0} WHERE {1} = {2} LIMIT 1'.format(table, field, parameter)
+query = 'SELECT * FROM {0} WHERE {1} = {2} LIMIT 1'.format(table, field, value)
 
 print 'The following query will be sent to Hive:'
 print query
